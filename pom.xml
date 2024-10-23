@@ -31,6 +31,16 @@
   </repositories>
   <dependencies>
     <dependency>
+        <groupId>io.micronaut</groupId>
+        <artifactId>micronaut-http-client</artifactId>
+        <scope>compile</scope>
+    </dependency>
+    <dependency>
+        <groupId>io.micronaut</groupId>
+        <artifactId>micronaut-http-client-jdk</artifactId>
+        <scope>compile</scope>
+    </dependency>
+    <dependency>
       <groupId>org.yaml</groupId>
       <artifactId>snakeyaml</artifactId>
       <scope>runtime</scope>
@@ -44,7 +54,7 @@
       <groupId>io.micronaut.serde</groupId>
       <artifactId>micronaut-serde-jackson</artifactId>
       <scope>compile</scope>
-    </dependency>    
+    </dependency>
     <dependency>
       <groupId>io.micronaut.serde</groupId>
       <artifactId>micronaut-serde-jackson</artifactId>
